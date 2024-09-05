@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Nerko One", sans-serif;
+}
+
+body{
+    height: 100vh;
+    background: url("assets/travis.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.relogio {
+    background: rgba(5, 5, 5, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    width: 550px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.7);
+    div{
+        background: rgba(5, 5, 5, 0.9);
+        height: 170px;
+        width: 130px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        flex-direction: column;
+        border-radius: 7px;
+        letter-spacing: 3px;
+    }
+    span {
+        font-size: 60px;
+        font-weight: bold;
+    }
+    .tempo{
+        font-size: 10px;
+    }
+}
